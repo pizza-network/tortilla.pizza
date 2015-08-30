@@ -1,0 +1,12 @@
+# Etc
+.DS_Store
+
+# Ruby
+Gemfile.lock
+log/*
+
+# Passenger
+passenger.*
+
+# Temp files
+tmp/*
