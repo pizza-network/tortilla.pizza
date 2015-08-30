@@ -2,7 +2,6 @@
 .DS_Store
 
 # Ruby
-Gemfile.lock
 log/*
 
 # Passenger
