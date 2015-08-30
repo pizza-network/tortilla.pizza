@@ -1,7 +1,10 @@
 quotes:
-  - "Test1"
-  - "Test2"
-  - "Test3"
-  - "Test4"
-  - "Test5"
-  - "Test6"
+  -
+    text: If pizza is to nourish the roots of our culture, society must set the pizza maker free to follow his vision wherever it takes him.
+    author: John F. Kennedy
+  -
+    text: When I think of pizza I think of beauty. Beauty is the mystery of life. It is not in the eye it is in the mind. In our minds there is awareness of perfection.
+    author: Agnes Martin
+  -
+    text: A pizza maker is not paid for his labor but for his vision.
+    author: James Whistler

@@ -11,7 +11,7 @@ end
 private
 
 def random_image
-  Dir.entries("public/img/pizza_images")
+  Dir.entries("public/img/pies")
     .reject { |file| file =~ /^\..*/ }
     .sample
 end
