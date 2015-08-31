@@ -1,9 +1,14 @@
 body {
-	margin:0;
-	background-color:#0A0A0A;
+	background-color:#2A2C39;
 	color:#fff;
-	font-size:3em;
+	font-size:2em;
+	font-family: 'Vollkorn', serif;
+	font-style: italic;
 }
 img {
 	width:100%;
+	display:block;
+}
+.pizza blockquote {
+	margin:2em 4em;
 }
