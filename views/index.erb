@@ -6,12 +6,20 @@
 	<link href='https://fonts.googleapis.com/css?family=Vollkorn:400italic,400' rel='stylesheet' type='text/css'>
     <link href="css/main.css" rel="stylesheet" type="text/css" />
     <title>&#127829;</title>
+    <style>
+        html {
+            background: url(/img/pies/<%= @image %>) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+    </style>
   </head>
   <body>
     <div class="pizza">
       <blockquote><%= @quote["text"] %>
-        <br/>&mdash; <%= @quote["author"] %></blockquote>
-      <img src="img/pies/<%= @image %>"></img>
+        <footer>&mdash; <%= @quote["author"] %></footer></blockquote>
     </div>
   </body>
 </html>

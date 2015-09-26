@@ -1,14 +1,26 @@
 body {
-	background-color:#2A2C39;
 	color:#fff;
 	font-size:2em;
 	font-family: 'Vollkorn', serif;
 	font-style: italic;
 }
-img {
-	width:100%;
-	display:block;
+.pizza {
+    width:50%;
+    height:100px;
+    background-color:#2A2C39;
+    display:table;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    border:3px solid #fff;
+    border-radius:12.0px;
+    -webkit-box-shadow:6px 6px 12px 2px rgba(0,0,0,0.6);
+    -moz-box-shadow:6px 6px 12px 2px rgba(0,0,0,0.6);
+    box-shadow:6px 6px 12px 2px rgba(0,0,0,0.6);
 }
-.pizza blockquote {
-	margin:2em 4em;
+.pizza blockquote footer {
+    margin:.5em 0;
 }
